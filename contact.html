@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liwen Wu's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/jpg" href="image/icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6295ba9ab0.js" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+</head>
+
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+	<!--this is navigation-->
+	<nav class="allnav">
+		<div class="homepage">
+			<a href="index.html">BLUEMILK ARCHITECTS</a>
+		</div>
+		<div class="nav-to-other-pages">
+			<ul>
+				<li><a  href="mywork.html">MY WORK</a></li>
+				<li><a href="photography.html">PHOTOGRAPHY</a></li>
+				<li><a aria-current="page" href="contact.html">CONTACT</a></li>
+			 </ul>
+		</div>
+	</nav>
+
+    <header id="main" class="myworkpro">
+        <h1 class="h1header">
+            CONTACT
+        </h1>
+    </header>
+    <main class="contactContainer">
+            <!--pic-->
+            <figure>
+                <img src="image/axon.jpg" alt="A social media platform design" >
+                <figcaption>Most recent design: A social media platform</figcaption>
+            </figure>
+            <p class="contactP1">
+                This is my recent work of a social media platform. It is a translation from a virtual space to a physical architectural space
+                I researched on these nine platforms and translate them into architectural spaces in terms of the interpersonal relationship of each platform
+                I want to use it to discuss how to reconstruct our public discourse environment.
+                there are different kinds of communities.
+                different community programs
+                they were in order and then became blend with each other
+                the architectures we see today are spatially ordered, for example, we will first go to a hall and then to a corridor and finally to a room
+                but here, I want people to feel lost, they don't know what they're going to encounter next, they may come out of a petting zoo and immediately encounter a concert, or they may just finish a salon and immediately encounter a concert.
+            </p>
+            <p class="contactP2">
+                or they may just finish a salon and immediately encounter a concert. or they may have just finished a salon and then encounter a pornographic film set, or they may have just finished a debate with someone and encounter a discussion about Rimbaud's poetry on the other side
+            
+                Here you will meet anything at random and what surround you could be anything, in such a lost and confused scene, you are surrounded by all kinds of voices and opinions and actions, and I want to use it to create a visual and auditory and intellectual impact, when you are in the presence of these activities, is it possible to let all these different, and things you have never seen before to break your stereotype
+            </p>
+
+            <!-- form -->
+            <form id="contact_form" action="https://formspree.io/f/meqdpvve" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                  <label class="required" for="name">Your name:</label><br />
+                  <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                  <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                  <label class="required" for="email">Your email:</label><br />
+                  <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                  <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                  <label class="required" for="message">Your message:</label><br />
+                  <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                  <span id="message_validation" class="error_message"></span>
+                </div>
+                  <input id="submit_button" type="submit" value="Send email" />
+              </form>
+
+            <!--about-->
+            <div class="about">
+                <h2 class="aboutme">
+                    <br>Below is the way to contact me
+                </h2>
+                <p class="aboutmep">
+                    I am now a current student doing the dual-degree at U of M.
+                    I am a designer and proficient in: Photoshop, Illustrator, InDesign, Rhino, Sketch Up, AutoCAD, V-Ray, Enscape.
+                </p>
+            </div>
+            
+    </main>
+
+    <footer>
+		<p class="f1">EMAIL: wuliwen122@gmail.com</p>
+		<p class="f2">TEL: +1 734-548-0501</p>
+		<p class="f3">INSTAGRAM: bluemilk_126</p>
+	</footer>
+    
+</body>
+</html>
