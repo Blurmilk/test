@@ -220,7 +220,7 @@ aside a{
 /**mywork**/
 /*set pic format*/
 .myworkpro{
-    background-image: url(../image/background.jpg);
+    background-image: url(background.jpg);
     width: 100%;
 }
 .containerProject{
